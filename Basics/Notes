@@ -1,0 +1,50 @@
+Functions:
+
+Block of code which performs a specific task
+
+syntax:
+
+def functionName():
+    body...
+
+
+functionName()
+
+..................................
+
+Parameters - variables given in the function declaration
+
+def function(a,b)------here a,b are the parameters
+
+
+function(1,2) ----- here 1,2 are the arguments
+
+Argument - values given in the time of funtion call!
+
+.....................................
+
+No of Para = No of Arguments in general!!
+
+but if u are not sure about this,, then u can use Arbitrary Arguments
+and Arbitrary Keyword Arguemnts...
+
+Arbitrary Arguments and Arbitrary Keyword Arguments allows you to take
+multiple argument into a function
+
+Arbitrary Arugents uses only * star
+Arbitrary Keyword Arguments uses ** stars
+
+at last
+Default Parameter Arguments - these are passed when u are declaring a
+function as a default values or argument given to the parameter
+soo if the user forgets to give the arguments then these default
+parameter arguments are used b y default and the job is done
+
+
+this way we completed Functions Concept! in python!!
+
+
+
+Next Concept - Recursion!!
+If u know Functions concept then only u will be able to do Recurssion!!
+soo revise and come tomorrow !!
