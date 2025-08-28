@@ -20,7 +20,12 @@ set_a = {1, 2, 3}
 set_b = {3, 4, 5}
 union = set_a | set_b  # {1, 2, 3, 4, 5}
 intersection = set_a & set_b  # {3}
-difference = set_a - set_b  # {1, 2}
+difference1 = set_a - set_b  # {1, 2}
+difference2 = set_b - set_a
+print(union)
+print(intersection)
+print(difference1)
+print(difference2)
 
 
 

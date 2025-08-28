@@ -50,3 +50,34 @@ print(count)
 
 # Once the Tuple is created u cannot change anything into it
 # This is Tuples
+
+# Bonus Concept!!! - IMPORTANT - TUPLE UNPACKING!!!
+# Tuple unpacking, assigning the values from a tuple to various different variables in one single line!
+nums1 = (1,2,3)
+a,b,c = nums1
+print("After Unpacking 1!")
+print(a)
+print(b)
+print(c)
+
+nums2 = (4,5,6)
+i,_,k = nums2 # Here _ is a dummy variable
+print("After Unpacking 2!")
+print(i)
+print(k)
+
+nums3 = (1,2,3,4,5,6,7,8,9,10)
+a,b,c,*rest = nums3
+print(a)
+print(b)
+print(c)
+print(rest)
+
+# Swapping two numbers using tuple unpacking!
+x = 5
+y = 10
+
+print(f"Before swapping x = {x}, y = {y}")
+x, y = y, x
+print(f"Before swapping x = {x}, y = {y}")
+
