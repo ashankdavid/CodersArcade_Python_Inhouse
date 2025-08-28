@@ -25,8 +25,7 @@ dict2 = {
 dict3 = {
         'names': ['samarth', 'preethi'],
         'ages': [18, 24],
-        'cities': ['bangalore', 'bangalore']
-}
+        'cities': ['bangalore', 'bangalore'] }
 
 # printing the dictionaries and accessing the vales in it
 print(dict1)
@@ -83,7 +82,7 @@ keys = mydict.keys()
 print(type(keys))
 for i in keys:
     print(i)
-
+print(list(keys))
 print(keys)
 
 values = mydict.values()

@@ -1,9 +1,15 @@
-class Addition:
-    def add(self,a,b):
-        return a+b
-    def add(self,a,b,c):
-        return a+b+c
+from abc import ABC, abstractmethod
 
+class Shape(ABC):
+    def area(self):
+        pass
 
-obj = Addition()
-obj.add(1,2)
+class Circle(Shape):
+    def __init__(self, radius):
+        self.radius = radius
+
+    def area(self):
+        return 3.14 * self.radius * self.radius
+
+c = Circle(5)
+print("Area of Circle:", c.area())
